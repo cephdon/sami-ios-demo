@@ -6,11 +6,17 @@ This sample iOS app was created to demonstrate how to use the SAMI iOS SDK. The 
 Prerequisites
 -------------
 
- * Xcode
+ * Xcode 6
+ * Cocoapods http://guides.cocoapods.org/using/getting-started.html 
 
-Installation
----------------------
+Setup and Installation
+----------------------
 
+1. Create an Application in devportal.samsungsami.io
+2. Ensure that the Redirect URI is set to 'ios-app://redirect'
+3. Copy the Application Client ID into SamiConstants.h, to replace <YOUR CLIENT APP ID>
+     #define SAMI_CLIENT_ID @"<YOUR CLIENT APP ID>"
+4. Build and Run the Application in XCode.
 
 
 More about SAMI
