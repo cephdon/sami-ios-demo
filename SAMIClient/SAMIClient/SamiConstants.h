@@ -11,7 +11,7 @@
 
 #define ACCESS_TOKEN @"access_token"
 
-#define SAMI_CLIENT_ID @"15046458ec6b464384b2607c49461243"
+#define SAMI_CLIENT_ID @"<YOUR CLIENT APP ID>"
 #define SAMI_AUTH_BASE_URL @"https://accounts.samsungsami.io"
 #define SAMI_AUTHENTICATE_PATH @"/authorize"
 #define SAMI_REDIRECT_URL @"ios-app://redirect"
