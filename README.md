@@ -1,5 +1,5 @@
-SAMIIO Objective-C/iOS SDK
-==========================
+SAMI Objective-C/iOS SDK
+========================
 
 This sample iOS app was created to demonstrate how to use the SAMI iOS SDK. The app was created to showcase how to manage SAMI's authentication (based on OAuth2), send and receive messages with SAMI's REST APIs.
 
