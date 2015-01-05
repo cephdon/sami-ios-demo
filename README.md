@@ -16,7 +16,9 @@ Setup and Installation
   * The Redirect URI is set to 'ios-app://redirect'.
   * Choose "Client credentials, auth code, implicit" for OAuth 2.0 flow.
 2. Install CocoaPods. See [this page](http://guides.cocoapods.org/using/getting-started.html) for instructions. From a terminal window, locate the SAMIClient directory, and run `pod install`. This installs all the prerequisites like AFNetworking and SocketRocket.
-3. Import the SAMI SDK into the Xcode project by dragging the `client` folder of [SAMI iOS SDK](https://github.com/samsungsamiio/sami-ios) from the Finder window into Xcode.
+3. Import the SAMI SDK into the Xcode project. 
+  * Download [SAMI iOS SDK](https://github.com/samsungsamiio/sami-ios)
+  * Open Xcode project and drag the `client` folder of SAMI iOS SDK from the Finder window into `SAMIClient` group in Xcode.
 4. Copy the Application Client ID into SamiConstants.h, to replace <YOUR CLIENT APP ID>
      #define SAMI_CLIENT_ID @"<YOUR CLIENT APP ID>"
 5. Build and Run the Application in XCode.
