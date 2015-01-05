@@ -53,7 +53,7 @@
     NSString* authorizationHeader = [SamiUserSession sharedInstance].bearerToken;
     
     SamiMessagesApi * api2 = [SamiMessagesApi apiWithHeader:authorizationHeader key:OAUTH_AUTHORIZATION_HEADER];
-    [api2 getLastNormalizedMessagesWithCompletionBlock:@(20) sdids:self.sid field:nil completionHandler:^(SamiNormalizedMessagesEnvelope *output, NSError *error) {
+    [api2 getLastNormalizedMessagesWithCompletionBlock:@(20) sdids:self.sid fieldPresence:nil completionHandler:^(SamiNormalizedMessagesEnvelope *output, NSError *error) {
         self.messages = output.data;
         [self.tableView reloadData];
         [self.refreshControl endRefreshing];
