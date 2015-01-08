@@ -8,7 +8,7 @@ Prerequisites
 
  * Xcode 6
  * AFNetworking
- * Cocoapods http://guides.cocoapods.org/using/getting-started.html 
+ * CocoaPods http://guides.cocoapods.org/using/getting-started.html 
 
 The SDK uses AFNetworking library. The demo app uses CocoaPods to manage the dependency of the SDK on this library.
 
