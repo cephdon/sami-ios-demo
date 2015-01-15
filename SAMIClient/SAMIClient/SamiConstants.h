@@ -15,7 +15,7 @@
 #define SAMI_AUTH_BASE_URL @"https://accounts.samsungsami.io"
 #define SAMI_AUTHENTICATE_PATH @"/authorize"
 #define SAMI_REDIRECT_URL @"ios-app://redirect"
-#define SAMI_IPHONE_DEVICE_TYPE @"com.samsung.ssic.iPhonePedometer"
+#define SAMI_IPHONE_DEVICE_TYPE @"iPhonePedometer"
 #define SAMI_DEVICE_ID @"SAMI_DEVICE_ID"
 
 #define OAUTH_AUTHORIZATION_HEADER @"Authorization"
