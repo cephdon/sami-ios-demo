@@ -1,7 +1,5 @@
 platform :ios, "7.0"
  
-target "SAMIClient" do
 pod 'AFNetworking', '~> 1.0'
-pod 'SocketRocket', '0.3.1-beta2'
-end
+link_with 'SAMIClient', 'SAMIClientTests'
 

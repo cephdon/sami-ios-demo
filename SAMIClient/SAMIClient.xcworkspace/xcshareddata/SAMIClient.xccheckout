@@ -10,31 +10,31 @@
 	<string>SAMIClient</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>ADD0FA15B3FBD0CC6C726F4F484FAABCCCB3AEAF</key>
-		<string>https://bitbucket.org/samihub/sami.git</string>
+		<key>E70CA066277155E50F8E5DE0DD71CB32EA92692F</key>
+		<string>https://github.com/samsungsamiio/sami-ios-demo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>salamis/clients/samples/objc/SAMIClient/SAMIClient.xcworkspace</string>
+	<string>SAMIClient/SAMIClient.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>ADD0FA15B3FBD0CC6C726F4F484FAABCCCB3AEAF</key>
-		<string>../../../../../..</string>
+		<key>E70CA066277155E50F8E5DE0DD71CB32EA92692F</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://bitbucket.org/samihub/sami.git</string>
+	<string>https://github.com/samsungsamiio/sami-ios-demo.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>ADD0FA15B3FBD0CC6C726F4F484FAABCCCB3AEAF</string>
+	<string>E70CA066277155E50F8E5DE0DD71CB32EA92692F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>ADD0FA15B3FBD0CC6C726F4F484FAABCCCB3AEAF</string>
+			<string>E70CA066277155E50F8E5DE0DD71CB32EA92692F</string>
 			<key>IDESourceControlWCCName</key>
-			<string>sami</string>
+			<string>git-sami-ios-demo</string>
 		</dict>
 	</array>
 </dict>

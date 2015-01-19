@@ -49,8 +49,6 @@
 /* Begin PBXFileReference section */
 		119657A11A5B17CF00C67ED0 /* sami-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sami-logo.png"; sourceTree = "<group>"; };
 		1468E7937A96D28EB17071C0 /* libPods-SAMIClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAMIClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		150215674810A28C75E7857A /* Pods-SAMIClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMIClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAMIClient/Pods-SAMIClient.release.xcconfig"; sourceTree = "<group>"; };
-		472D91A188743321FE813255 /* Pods-SAMIClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAMIClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAMIClient/Pods-SAMIClient.debug.xcconfig"; sourceTree = "<group>"; };
 		63612DB219CA94D3007032F2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		63612DB419CA94DD007032F2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		63667A0A19CA5C58008726B1 /* SAMIClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAMIClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,15 +118,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A3A6508577F4AC46F212359 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				472D91A188743321FE813255 /* Pods-SAMIClient.debug.xcconfig */,
-				150215674810A28C75E7857A /* Pods-SAMIClient.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		63667A0119CA5C58008726B1 = {
 			isa = PBXGroup;
 			children = (
@@ -136,7 +125,6 @@
 				63667A3519CA5C59008726B1 /* SAMIClientTests */,
 				63667A0C19CA5C58008726B1 /* Frameworks */,
 				63667A0B19CA5C58008726B1 /* Products */,
-				5A3A6508577F4AC46F212359 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -493,7 +481,6 @@
 		};
 		63667A4019CA5C59008726B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 472D91A188743321FE813255 /* Pods-SAMIClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -508,7 +495,6 @@
 		};
 		63667A4119CA5C59008726B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 150215674810A28C75E7857A /* Pods-SAMIClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
